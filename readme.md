@@ -12,7 +12,7 @@ A simple and elegant weather card application that fetches and displays weather 
 
 ## Demo
 
-You can view a live demo of the application [here](#).
+You can view a live demo of the application [here](https://konprtk.me/liveWeatherCard/).
 
 ## Installation
 
