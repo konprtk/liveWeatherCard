@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card By Pratik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    // images suddha add kelet ani te ./image folder madhe ahet
+    // ani ho images sathi purn path denyachi garaj naste just ./ ne parent directory access karun add karayach simple as that.
+    <div class="card">
+        <div class="search">
+            <input type="text" id="cityInput" placeholder="Enter city name" spellcheck="false">
+            <button id="searchButton"><img src="images/search.png" alt="Search"></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon" alt="Weather Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">NEW YORK</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>HUMIDITY</p>
+                    </div>
+                </div>
+                <div class="col">
+                    
+                    <img src="images/wind.png" alt="Wind">
+                    <div>
+                        <p class="wind">50 KM/H</p>
+                        <p>WIND SPEED</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    // I have added the javascript in below link script file, okay na
+    // Code madhe kahi samajal nasel tr sangjo
+    <script src="script.js"></script>
+</body>
+</html>
